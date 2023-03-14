@@ -1,2 +1,2 @@
 # Arduino_IIBimestre
-Repositorio con código utilizado en el segundo bimestre de la clase de electrónica digital de Fundación Kinal.
+Repositorio con ejemplos utilizados en el segundo bimestre de la clase de electrónica digital de Fundación Kinal.
