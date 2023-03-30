@@ -24,14 +24,19 @@ Serial.println("Uso del condicional if"); //Envio el mensaje a la terminal virtu
 
 void loop() 
 {
-
+  //Variable local - es decir esta variable unicamente tiene alcance 
+  //o existe dentro del loop()
   bool resultado = numero1 == numero2;
 
   if(resultado)
   {
+    //Si el resultado en la comparacion de ambas magnitudes
+    //es verdadero, envio un texto diciendo que son iguales.
     Serial.println("Ambos numeros son iguales");
   }
 
+  //Si el resultado de la comparacion de ambas magnitudes
+  //es falso, envio un texto diciendo que no son iguales.
   Serial.println("NO son iguales");
   delay(1000);
 
