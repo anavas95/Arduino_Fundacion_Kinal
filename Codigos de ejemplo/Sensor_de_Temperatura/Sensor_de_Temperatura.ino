@@ -7,7 +7,7 @@
  * Taller de electronica digital y reparacion de computadoras
  * Nombre: Profe Alejandro Lopez
  * Fecha: 27/04/2023
- * Proyecto: LCD por medio de I2C
+ * Proyecto: Sensor de Temperatura DS18B20
  */
 
 
