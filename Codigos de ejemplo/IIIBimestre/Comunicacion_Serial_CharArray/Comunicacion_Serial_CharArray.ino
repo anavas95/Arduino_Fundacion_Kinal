@@ -12,7 +12,7 @@
 
 
 //***************MACROS*************************
-#define led 13 //led conectado al pin 2 del arduino.
+#define led 13 //led conectado al pin 13 del arduino.
 #define SerialBaudRate 9600 //velocidad de la comunicacion serial
 
 
