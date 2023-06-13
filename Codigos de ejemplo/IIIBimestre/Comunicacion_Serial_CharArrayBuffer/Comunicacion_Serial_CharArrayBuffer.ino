@@ -9,8 +9,7 @@
  * Carnet: ---------
  * Proyecto: Comunicacion serial - recepcion de una cadena de caracteres
 */
-#include <stdlib.h>
-#include <stdio.h>
+
 
 //***********************MACRO**********************************
 #define led 13   //led conectado al pin 13 del arduino
@@ -52,6 +51,14 @@ void loop()
     }
     Serial.println(inf_recibida);  //envio al monitor serial la informacion almacenado en mi char buffer
 
+    //Si la informacion que he recibido corresponde a una variable numerica, tengo que convertirla a 
+    int variable_1 = atoi(inf_recibida);  //Convertir el char array en una variable tipo int, para realizar operaciones
+
+    if(variable_1>10 && variable_1<20)   //Si el array buffer tiene un valor entre 11 y 19
+    {  
+      Serial.println("Ha ingresado un valor entre 11 y 19");  //Envio el texto al monitor serial.
+    }
+    
     //Limpio el charArray, es decir borro la informacion contenida dentro de el
     for(int i = 0; i<datos; i++)
     {
